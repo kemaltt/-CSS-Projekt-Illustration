@@ -32,10 +32,6 @@ p {
     font-size: 1.3rem;
 }
 
-img {
-    width: 30%;
-}
-
 
 /* ===============================
             Header
@@ -204,6 +200,10 @@ article {
 article p {
     margin: 2rem 11rem 2rem 11rem;
     line-height: 2.5rem;
+}
+
+.article-img1 img {
+    width: 30%;
 }
 
 article:nth-of-type(2) img {
