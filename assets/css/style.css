@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat:wght@300;400&display=swap');
+
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+h2 {
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+p {
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 30%;
+}
+
+
+/* ===============================
+            Header
+================================= */
+
+header nav ul {
+    text-align: right;
+    padding: 1rem 2rem 2rem 0;
+    margin-bottom: 1rem;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #202020;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header div {
+    display: inline-block;
+}
+
+.header-title {
+    width: 49%;
+    position: relative;
+    bottom: 300px;
+}
+
+.header-title div {
+    padding-left: 7rem;
+}
+
+.header-title div p {
+    margin: 1rem 4rem 2rem 0;
+}
+
+.header-title div a {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 15px 5px rgb(197, 197, 197);
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.header-title div a:nth-of-type(1) {
+    color: white;
+    background-color: #202020;
+}
+
+.header-title div a:nth-of-type(1):hover {
+    color: #202020;
+    background-color: #fff;
+}
+
+.header-title div a:nth-of-type(2) {
+    color: #202020;
+}
+
+.header-title div a:nth-of-type(2):hover {
+    color: white;
+    background-color: #202020;
+}
+
+.header-img {
+    text-align: right;
+    width: 50%;
+}
+
+.header-img img {
+    width: 80%;
+    height: 640px;
+    object-fit: cover;
+}
+
+
+/* ==============================
+          Main
+================================= */
+
+
+/* =============================
+            Section
+============================== */
+
+section {
+    padding: 7rem 0 2rem 3rem;
+}
+
+section div {
+    display: inline-block;
+}
+
+.sectionOne .img1 {
+    width: 49%;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.sectionOne .img1 img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sectionOne .title1 {
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+}
+
+.title1 p {
+    margin: 2rem 6rem 0 0;
+    line-height: 2.5rem;
+}
+
+.sectionTwo .img2 {
+    width: 49%;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.sectionTwo .img2 img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sectionTwo .title2 {
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    padding-left: 6rem;
+}
+
+.title2 p {
+    margin: 2rem 6rem 0 0;
+    line-height: 2.5rem;
+}
+
+.sectionTwo {
+    margin: 7rem 0 7rem 0;
+}
+
+
+/* ===============================
+            Article
+==================================*/
+
+article {
+    text-align: center;
+    padding: 0 6rem 4rem 3rem;
+}
+
+article p {
+    margin: 2rem 11rem 2rem 11rem;
+    line-height: 2.5rem;
+}
+
+article:nth-of-type(2) img {
+    width: 40%;
+    margin: 2rem;
+}
+
+article img:hover {
+    box-shadow: 5px 2px 11px 2px #7D8687;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 0 20px 0 20px;
+}
+
+
+/* ===========================
+           Section 2
+================================ */
+
+section:nth-of-type(2) {
+    text-align: center;
+    padding: 0 6rem 4rem 3rem;
+}
+
+section:nth-of-type(2) p {
+    margin: 2rem 16rem 2rem 16rem;
+    line-height: 2.5rem;
+}
+
+.membership {
+    background-color: #e7eaec;
+    width: 20vw;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.membership h2 {
+    font-size: 1.5rem;
+}
+
+.membership h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    padding: 4rem 0 4rem 0;
+}
+
+.membership h4 {
+    color: #7D8687;
+    margin-bottom: 1rem;
+}
+
+.membership h5 {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+.membership-list {
+    margin-bottom: 2rem;
+}
+
+.membership a {
+    text-decoration: none;
+    background-color: #24bff2;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.membership a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===========================
+         footer
+================================ */
