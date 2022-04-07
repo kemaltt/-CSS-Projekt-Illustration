@@ -80,6 +80,7 @@ header div {
 
 .header-title div p {
     margin: 1rem 4rem 2rem 0;
+    line-height: 2.5rem;
 }
 
 .header-title div a {
