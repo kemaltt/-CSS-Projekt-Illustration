@@ -310,20 +310,23 @@ footer ul:nth-of-type(1) li:nth-of-type(even) {
 
 .footer-list li {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
-.footer-list li:nth-of-type(1) span {
+.footer-list li:nth-of-type(1) span,
+.footer-list li:nth-of-type(1) i {
     color: #3b5998;
     font-size: 3rem;
 }
 
-.footer-list li:nth-of-type(2) span {
+.footer-list li:nth-of-type(2) span,
+.footer-list li:nth-of-type(2) i {
     color: #fcaf45;
     font-size: 3rem;
 }
 
-.footer-list li:nth-of-type(3) span {
+.footer-list li:nth-of-type(3) span,
+.footer-list li:nth-of-type(3) i {
     color: #55acee;
     font-size: 3rem;
 }
